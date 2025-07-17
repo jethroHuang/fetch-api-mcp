@@ -1,0 +1,25 @@
+{
+  "name": "fetch-api-mcp",
+  "version": "1.0.0",
+  "description": "A MCP server for fetch api",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "bin": {
+    "mcp-server-fetch-api": "src/index.js"
+  },
+  "keywords": [],
+  "author": "jethro",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.3",
+    "nodemailer": "^7.0.2",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.15",
+    "typescript": "^5.8.3"
+  }
+}
