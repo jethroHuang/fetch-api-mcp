@@ -2,6 +2,10 @@
 
 这是一个基于MCP（Model Context Protocol）的API请求服务器，可以发送各种HTTP请求并返回结果。
 
+<a href="https://glama.ai/mcp/servers/@jethroHuang/fetch-api-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@jethroHuang/fetch-api-mcp/badge" alt="Fetch API Server MCP server" />
+</a>
+
 ## 功能
 
 - 支持多种HTTP方法（GET, POST, PUT, DELETE等）
@@ -121,4 +125,4 @@ MCP服务器接受以下参数：
     "user_id": "12345"
   }
 }
-``` 
+```
